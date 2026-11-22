@@ -3,6 +3,6 @@
 | Naaryah Naraine | --- | --- |
 | Jonathan Payne| --- | --- |
 | Brittania Bucknall | --- | --- |
-| Micheal Ramharack | --- | --- |
+| Michael Ramharack | --- | --- |
 
 | Joshua Hannays |  | Login, logout and the users page |

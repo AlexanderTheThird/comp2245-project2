@@ -45,8 +45,8 @@ INSERT INTO users (firstname, lastname, email, password, role) VALUES
 ('Joshua', 'Hannays', 'hannays@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),
 ('Naaryah', 'Naraine', 'naraine@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),
 ('Jonathan', 'Payne', 'payne@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),
-('Micheal', 'Ramharack', 'ramharack@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),
-('Britannia', 'Bucknall', 'ramharack@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),;
+('Michael', 'Ramharack', 'ramharack@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member'),
+('Britannia', 'Bucknall', 'bucknall@fixit.test', '$2y$12$BKS4qhFXEooc44EAmtXlJ.740rNtmG7OZS4KJt7IeCwAhGrmMTd6m', 'member');
 
 INSERT INTO tickets (title, description, priority, status, created_by, assigned_to) VALUES
 ('Dashboard Disabled', 'Password is accepted but the dashboard does not load.', 'High', 'Open', 2, NULL),
