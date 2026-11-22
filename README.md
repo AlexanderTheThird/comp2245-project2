@@ -3,10 +3,10 @@
 | Naaryah Naraine | --- | --- |  
 | Jonathan Payne | --- | --- |  
 | Brittania Bucknall | --- | --- |  
-| Micheal Ramharack | --- | --- |  
+| Michael Ramharack | --- | --- |  
 
 | Joshua Hannays |  | Developed the database, shared PHP setup files, admin-only Users page, and README documentation. |  
 | Naaryah Naraine |  |  |  
 | Jonathan Payne |  |  |  
 | Brittania Bucknall |  |  |  
-| Micheal Ramharack |  |  |  
+| Michael Ramharack |  |  |  
