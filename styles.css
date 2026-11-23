@@ -23,3 +23,68 @@
     display: none;
 }
 /* ~~~~~ end of M4 section ~~~~~ */
+
+/* === M5: ticket page === */
+/* Paste this into M3's styles.css, in the M5 section only. */
+[hidden] {
+  display: none !important; /* so the hidden attribute beats .btn / .alert display rules */
+}
+
+.ticket-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ticket-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ticket-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 800px) {
+  .ticket-layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}
+
+.ticket-main {
+  min-width: 0; /* lets long words wrap instead of pushing past the screen edge */
+}
+
+.ticket-description,
+.note-body {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.ticket-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1rem;
+}
+
+.ticket-details dt {
+  color: #5b6472;
+}
+
+.ticket-details dd {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.ticket-message {
+  min-height: 1.25rem;
+  margin: 0.75rem 0 0;
+}
