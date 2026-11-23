@@ -1,0 +1,25 @@
+/* ~~~~~ M4: ticket forms and delete box ~~~~~ */
+.form-field input,
+.form-field select,
+.form-field textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-field textarea {
+    min-height: 8rem;
+}
+
+.form-actions,
+.confirm-box form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+/* Keeps the delete box hidden until delete is clicked */
+.confirm-box[hidden] {
+    display: none;
+}
+/* ~~~~~ end of M4 section ~~~~~ */
